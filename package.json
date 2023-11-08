@@ -8,7 +8,6 @@
     "deploy": "hexo deploy",
     "server": "hexo clean && hexo server",
     "sync:local": "elog sync -e .elog.env",
-    "elog:init": "elog init",
     "sync": "elog sync",
     "elog:init": "elog init",
     "elog:clean": "elog clean"

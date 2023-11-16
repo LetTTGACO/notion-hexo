@@ -1,20 +1,15 @@
 ---
 categories: 博客折腾手册
-cover: ''
-category: 博客折腾手册
+cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/68217133-fdba-489c-b2ea-3b32cc027cea/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231116T135615Z&X-Amz-Expires=3600&X-Amz-Signature=34b78c1535a3ef4c76ad1cefc609b50a98dcc30080016386dc40d850925d79b8&X-Amz-SignedHeaders=host&x-id=GetObject'
 tags:
   - elog
   - notion
   - hexo
   - blog
-status: 已发布
-date: '2023-11-08'
-catalog: []
-urlname: notion-hexo
+date: '2023/11/08 00:00:00'
+permalink: notion-hexo/
 title: Notion + Hexo + GitHub Actions + Vercel 博客解决方案
-summary: ''
-sort: ''
-updated: '2023-11-08 15:37:00'
+updated: '2023/11/16 21:23:00'
 ---
 
 # 博客工具
@@ -24,16 +19,19 @@ updated: '2023-11-08 15:37:00'
 - 博客主题：[Aurora](https://aurora.tridiamond.tech/cn/)
 - 部署平台：Vercel
 
+# 环境准备
+
+
 # 博客搭建指南
 
 
-## 1. Fork模板仓库
+## Fork模板仓库
 
 
 [点击 Fork](https://github.com/elog-x/notion-hexo/fork) 该模板仓库到个人 Github 账号仓库下并 clone 到本地
 
 
-## 2. 安装依赖
+## 安装依赖
 
 
 在项目根目录下运行命令安装依赖
@@ -44,13 +42,13 @@ npm install
 ```
 
 
-## 3. 新建 Elog 本地调试文件
+## 新建 Elog 本地调试文件
 
 
 在项目根目录中复制`.elog.example.env`文件并改名为`.elog.env`，此文件将用于本地同步Notion 文档
 
 
-## 4. 配置 Notion 关键信息
+## 配置 Notion 关键信息
 
 
 按照[文档提示](https://elog.1874.cool/notion/gvnxobqogetukays#notion)配置 Notion 并获取 `token` 和 `databaseId`，在本地`.elog.env`中写入
@@ -62,7 +60,7 @@ NOTION_DATABASE_ID=获取的databaseId
 ```
 
 
-## 5.本地调试
+## 本地调试
 
 
 在项目根目录运行同步命令
@@ -73,7 +71,7 @@ npm run sync:local
 ```
 
 
-## 6.启动 Hexo
+## 启动 Hexo
 
 
 在项目根目录运行hexo启动命令，会自动打开本地博客
@@ -84,19 +82,19 @@ npm run server
 ```
 
 
-## 7. 配置 Hexo 博客
+## 配置 Hexo 博客
 
 
 根据 [Hexo](https://hexo.io/) 文档和 [Aurora](https://aurora.tridiamond.tech/cn/)主题配置文档，配置你的博客直到你满意为主，你也可以换别的主题，这里不做演示
 
 
-## 8. 提交代码到 github
+## 提交代码到 github
 
 
 本地访问没问题直接提交所有文件到 Github 仓库即可
 
 
-## 9. 部署到 Vercel
+## 部署到 Vercel
 
 
 注册 Vercel 账号并绑定 Github，在 Vercel 导入 该项目，Vercel 会自动识别出该 Hexo 项目，不需要改动，直接选择 Deploy 部署。部署完成会有一个 Vercel 临时域名，你也可以绑定自己的域名。
@@ -108,16 +106,16 @@ npm run server
 ![Untitled.png](/images/96c63eba75b1b9b8e040ce9cc955f867.png)
 
 
-## 10. 配置 Github Actions 权限
+## 配置 Github Actions 权限
 
 
 在 Github 仓库的设置中找到 `Actions-General`，打开流水线写入权限`Workflow permissions`
 
 
-	![Untitled.png](/images/47e1175ed8622c31bc9f70b7598c50b5.png)
+![Untitled.png](/images/47e1175ed8622c31bc9f70b7598c50b5.png)
 
 
-## 11. 配置环境变量
+## 配置环境变量
 
 
 在本地运行时，用的是`.elog.env`文件中定义的 Notion 账号信息，而在 Github Actions 时，需要提前配置环境变量。
@@ -129,7 +127,7 @@ npm run server
 ![Untitled.png](/images/e7a2a8aed67b2bb6ae47857733221907.png)
 
 
-## 12. 自动化部署
+## 自动化部署
 
 
 当在 Notion 中改动文档后，手动/自动触发 Github Actions流水线，会重新从 Notion 增量拉取文档，自动提交代码到 Github 仓库。

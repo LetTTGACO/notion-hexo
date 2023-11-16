@@ -13,9 +13,14 @@ module.exports = {
     platform: 'local',
     local: {
       outputDir: './source/_posts',
-      filename: 'urlname',
-      format: 'matter-markdown',
-      catalog: false
+      filename: 'title',
+      format: 'markdown',
+      catalog: false,
+      frontMatter: {
+        enable: true,
+        include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover'],
+        timeFormat: 'YYYY/MM/DD HH:mm:ss',
+      }
     }
   },
   image: {

@@ -7,8 +7,8 @@ description: 使用Notion + Hexo部署博客时，在 Notion 上写作的注意�
 permalink: notion-notice/
 title: Notion-Hexo 的 Elog 配置详解
 cover: /images/de91d8193c1b7d27e88f220af42a71b8.jpg
-date: '2023-11-17 14:33:00'
-updated: '2023-11-17 20:38:00'
+date: 1700202780000
+updated: 1700225580000
 ---
 
 # 前言
@@ -134,7 +134,7 @@ local: {
 - `filename`表示文档将以数据库的 `title` 字段命名，也就是文档名
 - `format`表示文档将以 markdown 的形式保存
 - `frontMatter.enable`表示在 markdown 文档开头添加 Front Matter
-- `frontMatter.include`表示只输出数组中村咋的字段，数据库的其他字段忽略
+- `frontMatter.include`表示只输出数组中存在的字段，数据库的其他字段忽略
 - `frontMatter.timeFormat=true`表示启用时间格式化，默认将时间按照`YYYY-MM-DD HH:mm:ss`形式进行格式化，否则会以时间戳的形式输出
 - `formatExt=./format-image.js`表示将使用自定义文档插件，插件路径为项目根目录下的`format-image.js`文件
 

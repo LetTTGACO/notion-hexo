@@ -19,7 +19,7 @@ module.exports = {
       frontMatter: {
         enable: true,
         include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover'],
-        timeFormat: 'YYYY/MM/DD HH:mm:ss',
+        timeFormat: true,
       },
       formatExt: './format-image.js',
     }

@@ -5,19 +5,21 @@ tags:
   - notion
   - hexo
   - blog
-date: '2023/11/16 00:00:00'
 permalink: notion-hexo/
 title: Notion + Hexo + GitHub Actions + Vercel 博客解决方案
 cover: /images/91f86a18f236b28d0193054dae19b102.jpg
-updated: '2023/11/17 13:00:00'
+date: '2023-11-16 20:56:00'
+updated: '2023-11-17 13:48:00'
 ---
 
 # 博客工具
 
 - 写作平台：Notion
 - 博客平台：[Hexo](https://hexo.io/)
-- 博客主题：[Aurora](https://aurora.tridiamond.tech/cn/)
+- 博客主题：[Butterfly@4.10.0](https://github.com/jerryc127/hexo-theme-butterfly)
+- 博客文档同步：[Elog](https://github.com/LetTTGACO/elog)
 - 部署平台：Vercel
+- 博客仓库：[https://github.com/LetTTGACO/notion-hexo](https://github.com/LetTTGACO/notion-hexo)
 
 # 环境准备
 

@@ -7,8 +7,8 @@ description: 使用Notion + Hexo部署博客时，在 Notion 上写作的注意�
 permalink: notion-notice/
 title: Notion-Hexo 的 Elog 配置详解
 cover: /images/de91d8193c1b7d27e88f220af42a71b8.jpg
-date: 1700202780000
-updated: 1700225580000
+date: '2023-11-17 14:33:00'
+updated: '2023-11-17 23:39:00'
 ---
 
 # 前言

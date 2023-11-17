@@ -10,9 +10,12 @@ const { matterMarkdownAdapter } = require('@elog/cli')
 const format = async (doc, imageClient) => {
   const cover = doc.properties.cover
   // 将 cover 字段中的 notion 图片下载到本地
-  const url = await imageClient.uploadImageFromUrl(cover, doc)
-  // cover链接替换为本地图片
-  doc.properties.cover = url
+  if (imageClient)  {
+    // 只有启用图床平台image.enable=true时，imageClient才能用，否则请自行实现图片上传
+    const url = await imageClient.uploadImageFromUrl(cover, doc)
+    // cover链接替换为本地图片
+    doc.properties.cover = url
+  }
   doc.body = matterMarkdownAdapter(doc);
   return doc;
 };

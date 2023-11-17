@@ -1,12 +1,12 @@
 ---
 categories: Elog-Notion
-cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/d9977190-9097-4d01-9bb0-a90af8d25731/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231116T135449Z&X-Amz-Expires=3600&X-Amz-Signature=1c2808ceb2d7340154cb96e1389d5fe97d211f6e37b06fd35f974ffe128cc922&X-Amz-SignedHeaders=host&x-id=GetObject'
 tags:
   - notion
-date: '2023/11/16 00:00:00'
+date: '2023/11/03 00:00:00'
 permalink: notion-example/
 title: Notion示例文章
-updated: '2023/11/16 21:17:00'
+cover: /images/aa04e8cfab38a2346420b1b635666927.jpg
+updated: '2023/11/17 13:00:00'
 ---
 
 # Notion-Markdown
@@ -111,7 +111,7 @@ Notion示例文章的子页面
 [bookmark](https://elog.1874.cool)
 
 
-[46_1677164223.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/5999649b-7796-46a0-abd4-2e17b7b607ab/46_1677164223.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231116T135451Z&X-Amz-Expires=3600&X-Amz-Signature=5667d133f280bfd1232b8a4838ec4e2060236c431a849926e2358ff093c03193&X-Amz-SignedHeaders=host&x-id=GetObject)
+[46_1677164223.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/5999649b-7796-46a0-abd4-2e17b7b607ab/46_1677164223.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231117T050425Z&X-Amz-Expires=3600&X-Amz-Signature=c4148873596401d261c9e9b5f3a746afedceeb873835b2a0d00733134c3f690a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ```python
@@ -123,7 +123,7 @@ print(f"password={pwd!r}")
 ```
 
 
-[example.txt](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/753c8245-2aea-45de-8a5a-509c105f6236/example.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231116T135451Z&X-Amz-Expires=3600&X-Amz-Signature=c14aeb19dc874b9a77323bc23544fd4cb7f99d4e0ab0f16e23b49ed4a2cf0d6e&X-Amz-SignedHeaders=host&x-id=GetObject)
+[example.txt](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/753c8245-2aea-45de-8a5a-509c105f6236/example.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231117T050425Z&X-Amz-Expires=3600&X-Amz-Signature=5bb38f4b7e7c0a2af0879f15e9b0e0b3e6d4d921ba3dbd4e98c0872782fccdef&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## DataBase（数据库）

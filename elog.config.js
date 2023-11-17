@@ -20,7 +20,8 @@ module.exports = {
         enable: true,
         include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover'],
         timeFormat: 'YYYY/MM/DD HH:mm:ss',
-      }
+      },
+      formatExt: './format-image.js',
     }
   },
   image: {

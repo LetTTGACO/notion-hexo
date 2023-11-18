@@ -24,7 +24,7 @@
     {
       "id": "eb6c24a1-c89b-4a1d-bf84-23ce2ddddc26",
       "doc_id": "eb6c24a1-c89b-4a1d-bf84-23ce2ddddc26",
-      "updated": 1700235480000,
+      "updated": 1700311800000,
       "properties": {
         "categories": "博客折腾手册",
         "tags": [
@@ -38,7 +38,7 @@
         "title": "Notion + Hexo + GitHub Actions + Vercel 博客解决方案",
         "cover": "/images/91f86a18f236b28d0193054dae19b102.jpg",
         "date": "2023-11-16 20:56:00",
-        "updated": "2023-11-17 23:38:00"
+        "updated": "2023-11-18 20:50:00"
       },
       "realName": "Notion + Hexo + GitHub Actions + Vercel 博客解决方案",
       "relativePath": "/Notion + Hexo + GitHub Actions + Vercel 博客解决方案.md",
@@ -100,10 +100,12 @@
           "notion",
           "elog"
         ],
+        "status": "已发布",
         "description": "使用Notion + Hexo部署博客时，在 Notion 上写作的注意事项，以及如何配置Elog使其更好的结合Hexo",
         "permalink": "notion-notice/",
         "title": "Notion-Hexo 的 Elog 配置详解",
-        "cover": "/images/de91d8193c1b7d27e88f220af42a71b8.jpg",
+        "cover": "https://www.notion.so/images/page-cover/rijksmuseum_jan_lievens_1627.jpg",
+        "urlname": "19e4fe07-a0fd-4efe-8236-8769cff53b94",
         "date": "2023-11-17 14:33:00",
         "updated": "2023-11-18 15:03:00"
       },
@@ -114,7 +116,7 @@
       "object": "page",
       "id": "eb6c24a1-c89b-4a1d-bf84-23ce2ddddc26",
       "created_time": "2023-11-16T12:56:00.000Z",
-      "last_edited_time": "2023-11-17T15:38:00.000Z",
+      "last_edited_time": "2023-11-18T12:50:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -126,8 +128,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/dc3ab2f7-66cb-4a5c-91bd-0c775b8e2aa5/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070432Z&X-Amz-Expires=3600&X-Amz-Signature=3bb30b21f41d63ab87797a9ec6dd95787ae75d82bdfa57f420e68e6c39f7fe75&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2023-11-18T08:04:32.816Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/dc3ab2f7-66cb-4a5c-91bd-0c775b8e2aa5/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T125139Z&X-Amz-Expires=3600&X-Amz-Signature=f90cc74f837c69bc8ca1d8f68ade6970f2de8bf39bb56fb87ba5ce1e867eb8cd&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2023-11-18T13:51:39.134Z"
         }
       },
       "icon": {
@@ -147,14 +149,12 @@
           "hexo",
           "blog"
         ],
-        "status": "已发布",
         "description": "",
         "permalink": "notion-hexo/",
         "title": "Notion + Hexo + GitHub Actions + Vercel 博客解决方案",
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/dc3ab2f7-66cb-4a5c-91bd-0c775b8e2aa5/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070432Z&X-Amz-Expires=3600&X-Amz-Signature=3bb30b21f41d63ab87797a9ec6dd95787ae75d82bdfa57f420e68e6c39f7fe75&X-Amz-SignedHeaders=host&x-id=GetObject",
-        "urlname": "eb6c24a1-c89b-4a1d-bf84-23ce2ddddc26",
+        "cover": "/images/91f86a18f236b28d0193054dae19b102.jpg",
         "date": "2023-11-16 20:56:00",
-        "updated": "2023-11-17 23:38:00"
+        "updated": "2023-11-18 20:50:00"
       },
       "url": "https://www.notion.so/Notion-Hexo-GitHub-Actions-Vercel-eb6c24a1c89b4a1dbf8423ce2ddddc26",
       "public_url": "https://1874.notion.site/Notion-Hexo-GitHub-Actions-Vercel-eb6c24a1c89b4a1dbf8423ce2ddddc26"

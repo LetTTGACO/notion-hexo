@@ -10,7 +10,7 @@ permalink: notion-hexo/
 title: Notion + Hexo + GitHub Actions + Vercel 博客解决方案
 cover: /images/91f86a18f236b28d0193054dae19b102.jpg
 date: '2023-11-16 20:56:00'
-updated: '2023-11-17 23:38:00'
+updated: '2023-11-18 20:50:00'
 ---
 
 # 博客工具
@@ -21,9 +21,6 @@ updated: '2023-11-17 23:38:00'
 - 博客文档同步：[Elog](https://github.com/LetTTGACO/elog)
 - 部署平台：Vercel
 - 博客仓库：[https://github.com/LetTTGACO/notion-hexo](https://github.com/LetTTGACO/notion-hexo)
-
-# 环境准备
-
 
 # 博客搭建指南
 
@@ -88,7 +85,7 @@ npm run server
 ## 配置 Hexo 博客
 
 
-根据 [Hexo](https://hexo.io/) 文档和 [Aurora](https://aurora.tridiamond.tech/cn/)主题配置文档，配置你的博客直到你满意为主，你也可以换别的主题，这里不做演示
+根据 [Hexo](https://hexo.io/) 文档和 [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 主题配置文档，配置你的博客直到你满意为主，你也可以换别的主题，这里不做演示
 
 
 ## 提交代码到 github

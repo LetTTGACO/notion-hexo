@@ -7,8 +7,8 @@ description: 使用Notion + Hexo部署博客时，在 Notion 上写作的注意�
 permalink: notion-notice/
 title: Notion-Hexo 的 Elog 配置详解
 cover: /images/de91d8193c1b7d27e88f220af42a71b8.jpg
-date: '2023-11-17 14:33:00'
-updated: '2023-11-17 23:39:00'
+date: '2023/11/17 14:33:00'
+updated: '2023/11/18 14:38:00'
 ---
 
 # 前言
@@ -39,8 +39,15 @@ updated: '2023-11-17 23:39:00'
 
 
 ```text
+// 使用[]() markdown 超链接语法
 点击 [下一篇](/notion/deploy-platform) 继续配置部署平台
 ```
+
+
+### 请勿上传视频、文件到 Notion 文档
+
+
+Elog 还暂不支持将Notion 中的视频、文件暂不支持上传到图床。如果下载到本地，短期内能访问，但因为 notion 的链接具有时效性，一般是一个小时，之后就不能查看了。
 
 
 # Elog 配置详解
@@ -67,8 +74,7 @@ module.exports = {
       format: 'markdown',
       frontMatter: {
         enable: true,
-        include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover', 'description'],
-        timeFormat: true,
+        include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover', 'description']
       },
       formatExt: './format-image.js',
     }
@@ -113,7 +119,7 @@ notion: {
 ## 本地配置
 
 
-![Untitled.png](/images/d619032306d2a6ea5b2b27b91255125e.png)
+![Untitled.png](/images/53c879e6cc7a8d91f1326bd89c2bc663.png)
 
 
 ```javascript
@@ -123,8 +129,7 @@ local: {
   format: 'markdown',
   frontMatter: {
     enable: true,
-    include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover', 'description'],
-    timeFormat: true,
+    include: ['categories', 'tags', 'title', 'date', 'updated', 'permalink', 'cover', 'description']
   },
   formatExt: './format-image.js',
 }
@@ -135,7 +140,6 @@ local: {
 - `format`表示文档将以 markdown 的形式保存
 - `frontMatter.enable`表示在 markdown 文档开头添加 Front Matter
 - `frontMatter.include`表示只输出数组中存在的字段，数据库的其他字段忽略
-- `frontMatter.timeFormat=true`表示启用时间格式化，默认将时间按照`YYYY-MM-DD HH:mm:ss`形式进行格式化，否则会以时间戳的形式输出
 - `formatExt=./format-image.js`表示将使用自定义文档插件，插件路径为项目根目录下的`format-image.js`文件
 
 ### format-image.js
@@ -155,10 +159,12 @@ const { matterMarkdownAdapter } = require('@elog/cli')
  */
 const format = async (doc, imageClient) => {
   const cover = doc.properties.cover
-  // 将 cover 字段中的 notion 图片下载到本地
-  const url = await imageClient.uploadImageFromUrl(cover, doc)
-  // cover链接替换为本地图片
-  doc.properties.cover = url
+  if (imageClient)  {
+    // 只有启用图床平台image.enable=true时，imageClient才能用，否则请自行实现图片上传
+    const url = await imageClient.uploadImageFromUrl(cover, doc)
+    // cover链接替换为本地图片
+    doc.properties.cover = url
+  }
   // 将文档内容格式化为带有 Front Matter 的 markdown
   doc.body = matterMarkdownAdapter(doc);
   // 返回整个文档对象

@@ -3,7 +3,7 @@
     {
       "id": "19e4fe07-a0fd-4efe-8236-8769cff53b94",
       "doc_id": "19e4fe07-a0fd-4efe-8236-8769cff53b94",
-      "updated": 1700289480000,
+      "updated": 1700290980000,
       "properties": {
         "categories": "Elog-Notion",
         "tags": [
@@ -15,7 +15,7 @@
         "title": "Notion-Hexo 的 Elog 配置详解",
         "cover": "/images/de91d8193c1b7d27e88f220af42a71b8.jpg",
         "date": "2023-11-17 14:33:00",
-        "updated": "2023-11-18 14:38:00"
+        "updated": "2023-11-18 15:03:00"
       },
       "realName": "Notion-Hexo 的 Elog 配置详解",
       "relativePath": "/Notion-Hexo 的 Elog 配置详解.md",
@@ -70,7 +70,7 @@
       "object": "page",
       "id": "19e4fe07-a0fd-4efe-8236-8769cff53b94",
       "created_time": "2023-11-17T06:33:00.000Z",
-      "last_edited_time": "2023-11-18T06:38:00.000Z",
+      "last_edited_time": "2023-11-18T07:03:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -105,7 +105,7 @@
         "title": "Notion-Hexo 的 Elog 配置详解",
         "cover": "/images/de91d8193c1b7d27e88f220af42a71b8.jpg",
         "date": "2023-11-17 14:33:00",
-        "updated": "2023-11-18 14:38:00"
+        "updated": "2023-11-18 15:03:00"
       },
       "url": "https://www.notion.so/Notion-Hexo-Elog-19e4fe07a0fd4efe82368769cff53b94",
       "public_url": "https://1874.notion.site/Notion-Hexo-Elog-19e4fe07a0fd4efe82368769cff53b94"
@@ -126,8 +126,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/dc3ab2f7-66cb-4a5c-91bd-0c775b8e2aa5/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070143Z&X-Amz-Expires=3600&X-Amz-Signature=401e2c96bbf5a93f19febf6d88f5bd4678023a1909245f846a1a602d33809e73&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2023-11-18T08:01:43.100Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/dc3ab2f7-66cb-4a5c-91bd-0c775b8e2aa5/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070432Z&X-Amz-Expires=3600&X-Amz-Signature=3bb30b21f41d63ab87797a9ec6dd95787ae75d82bdfa57f420e68e6c39f7fe75&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2023-11-18T08:04:32.816Z"
         }
       },
       "icon": {
@@ -147,10 +147,12 @@
           "hexo",
           "blog"
         ],
+        "status": "已发布",
         "description": "",
         "permalink": "notion-hexo/",
         "title": "Notion + Hexo + GitHub Actions + Vercel 博客解决方案",
-        "cover": "/images/91f86a18f236b28d0193054dae19b102.jpg",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/dc3ab2f7-66cb-4a5c-91bd-0c775b8e2aa5/%E5%B9%BD%E7%81%B5%E5%85%AC%E4%B8%BB.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070432Z&X-Amz-Expires=3600&X-Amz-Signature=3bb30b21f41d63ab87797a9ec6dd95787ae75d82bdfa57f420e68e6c39f7fe75&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "urlname": "eb6c24a1-c89b-4a1d-bf84-23ce2ddddc26",
         "date": "2023-11-16 20:56:00",
         "updated": "2023-11-17 23:38:00"
       },
@@ -190,10 +192,12 @@
         "tags": [
           "notion"
         ],
+        "status": "已发布",
         "description": "",
         "permalink": "notion-example/",
         "title": "Notion示例文章",
-        "cover": "/images/aa04e8cfab38a2346420b1b635666927.jpg",
+        "cover": "https://www.notion.so/images/page-cover/met_camille_pissarro_1896.jpg",
+        "urlname": "f0cf6faf-83c7-4ca1-8b3f-6a232eef4a3b",
         "date": "2023-11-16 20:56:00",
         "updated": "2023-11-17 23:39:00"
       },

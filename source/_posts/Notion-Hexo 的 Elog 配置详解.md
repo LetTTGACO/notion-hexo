@@ -8,7 +8,7 @@ permalink: notion-notice/
 title: Notion-Hexo 的 Elog 配置详解
 cover: /images/de91d8193c1b7d27e88f220af42a71b8.jpg
 date: '2023-11-17 14:33:00'
-updated: '2023-11-18 14:38:00'
+updated: '2023-11-18 15:03:00'
 ---
 
 # 前言
@@ -189,7 +189,7 @@ local: {
 ```
 
 - `outputDir`表示图片的存放位置为项目根目录下的`source/images`文件夹中
-- `prefixKey=/images`表示图片的统一前缀为`/images`，因为 Hexo 会将`source/images`文件夹视为[静态资源根目录](https://hexo.io/zh-cn/docs/asset-folders)，统一将图片放在这里，并制定图片前缀，Hexo 才能找到此图片
+- `prefixKey=/images`表示图片的统一前缀为`/images`，因为 Hexo 会将`source/images`文件夹视为[静态资源根目录](https://hexo.io/zh-cn/docs/asset-folders)，统一将图片放在这里，并指定图片前缀，Hexo 才能找到此图片
 
 ## 更多 Elog 配置详情，请阅读 [Elog 文档](https://elog.1874.cool/)
 

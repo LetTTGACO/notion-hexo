@@ -7,7 +7,7 @@ permalink: notion-example/
 title: Notion示例文章
 cover: /images/aa04e8cfab38a2346420b1b635666927.jpg
 date: '2023-11-16 20:56:00'
-updated: '2023-11-17 23:39:00'
+updated: '2023-12-01 13:38:00'
 ---
 
 # Notion-Markdown
@@ -86,7 +86,16 @@ Notion示例文章的子页面
 </details>
 
 
-> 引用块
+123
+
+
+> 引用块  
+> 引用换行  
+> 引用换行
+
+
+> 引用 2  
+> 引用 2 换行
 
 
 ---
@@ -112,7 +121,7 @@ Notion示例文章的子页面
 [bookmark](https://elog.1874.cool)
 
 
-[46_1677164223.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/5999649b-7796-46a0-abd4-2e17b7b607ab/46_1677164223.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070143Z&X-Amz-Expires=3600&X-Amz-Signature=f873a109de98d5f4fed2a81472fc4e388d5b7c7141c768a1c11757a27c2b984e&X-Amz-SignedHeaders=host&x-id=GetObject)
+[46_1677164223.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/5999649b-7796-46a0-abd4-2e17b7b607ab/46_1677164223.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240123T055158Z&X-Amz-Expires=3600&X-Amz-Signature=40218c689d49c969bff4e1094a1f8012b8147b7aeb0c514b19547c218404f33c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ```python
@@ -124,7 +133,7 @@ print(f"password={pwd!r}")
 ```
 
 
-[example.txt](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/753c8245-2aea-45de-8a5a-509c105f6236/example.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231118T070143Z&X-Amz-Expires=3600&X-Amz-Signature=ad83b813e17e87470cc7c071c029560019156884a9d22efed6fca4e40b8e8295&X-Amz-SignedHeaders=host&x-id=GetObject)
+[example.txt](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/753c8245-2aea-45de-8a5a-509c105f6236/example.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240123T055158Z&X-Amz-Expires=3600&X-Amz-Signature=84bfa75f36698d2309efc653714a1ad6b479f78fc1ef21c4f63a237d728117da&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## DataBase（数据库）
